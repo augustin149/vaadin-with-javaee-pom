@@ -1,22 +1,23 @@
 ## Customize the test machine
 machine:
 
+  # Set the timezone
   timezone:
-    America/New_York # Set the timezone
+    America/New_York 
 
   # Version of J to use
-  java:
-    version: openjdk7
+#  java:
+#    version: openjdk7
 
   # Override /etc/hosts
-  hosts:
-    circlehost: 127.0.0.1
-    dev.mycompany.com: 127.0.0.1
+#  hosts:
+#    circlehost: 127.0.0.1
+#    dev.mycompany.com: 127.0.0.1
 
   # Add some environment variables
-  environment:
-    CIRCLE_ENV: test
-    DATABASE_URL: postgresql://ubuntu:@127.0.0.1:5432/circle_test
+#  environment:
+#    CIRCLE_ENV: test
+#    DATABASE_URL: postgresql://ubuntu:@127.0.0.1:5432/circle_test
 
 ## Customize checkout
 checkout:
