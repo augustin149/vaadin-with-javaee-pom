@@ -27,5 +27,6 @@ checkout:
 
 ## Customize dependencies
 dependencies:
-  pre: mvn clean versions:set -DnewVersion=${CIRCLE_BRANCH}-SNAPSHOT
+  pre:
+    - mvn clean versions:set -DnewVersion=${CIRCLE_BRANCH}-SNAPSHOT
 
