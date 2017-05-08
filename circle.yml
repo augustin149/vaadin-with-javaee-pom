@@ -6,8 +6,8 @@ machine:
     America/New_York 
 
   # Version of J to use
-#  java:
-#    version: openjdk7
+  java:
+    version: openjdk7
 
   # Override /etc/hosts
 #  hosts:
