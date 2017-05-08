@@ -1,8 +1,9 @@
 ## Customize the test machine
 machine:
 
+  # Set the timezone
   timezone:
-    America/New_York # Set the timezone
+    America/New_York
 
   # Version of J to use
   java:
