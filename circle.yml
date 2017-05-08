@@ -26,7 +26,7 @@ checkout:
 
 ## Customize dependencies
 dependencies:
-  pre: mvn clean versions:set -DnewVersion=${BRANCH}-SNAPSHOT
+  pre: mvn clean versions:set -DnewVersion=${CIRCLE_BRANCH}-SNAPSHOT
 
 ## Customize database setup
 database:
